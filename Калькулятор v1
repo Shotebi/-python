@@ -1,0 +1,23 @@
+x = int(input())
+y = int(input())
+z = input()
+a = int(0)
+if z=="/":
+    if y!=0:
+        print(x / y)
+    elif y==0:
+        print("На ноль делить нельзя!")
+elif z=="*":
+    print(x*y)
+elif z=="+":
+    print(x+y)
+elif z=="-":
+    print(x-y)
+elif z!= "/":
+    print("Неверная операция")
+elif z!= "*":
+    print("Неверная операция")
+elif z!= "+":
+    print("Неверная операция")
+elif z!= "-":
+    print("Неверная операция")
